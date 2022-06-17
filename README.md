@@ -2,6 +2,15 @@
 This can be seen in the graph of the number of fatalities and serious injuries due to Covid-19.
 ## How to install covidill
 $ pip install covidill
+
+Please install the data to be used from the following URL.
+
+Data on the number of seriously injured persons：
+https://covid19.mhlw.go.jp/public/opendata/severe_cases_daily.csv
+
+Data on the number of deaths：
+https://covid19.mhlw.go.jp/public/opendata/number_of_deaths_daily.csv
+
 ## How to run covidill
 Execute the following command in the directory where covidill.py exists.<br>
 
