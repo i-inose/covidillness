@@ -14,7 +14,7 @@ https://covid19.mhlw.go.jp/public/opendata/number_of_deaths_daily.csv
 ## How to run covidill
 Execute the following command in the directory where covidill.py exists.<br>
 
-$ python covidill.py
+$ covidill
 
 ![result](https://user-images.githubusercontent.com/78309273/174234983-3d6f7daf-97be-4922-9e14-882b4c62827e.png)
 
