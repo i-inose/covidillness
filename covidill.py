@@ -5,8 +5,8 @@ import numpy as np
 import datetime
 
 #前処理1
-df = pd.read_csv("number_of_deaths_daily.csv")
-index = pd.date_range("2020-05-09", "2022-06-16", freq = "D")
+df = pd.read_csv("")
+index = pd.date_range("2020-05-09", "2022-05-28", freq = "D")
 df["Date"] = df["Date"].str.replace('/', '-')
 df.index = index
 df = df.drop(df.columns[2:], axis=1)
@@ -14,7 +14,7 @@ df = df.drop(df.columns[0], axis=1)
 df = df.rename(columns={"ALL" : "Number of seriously injured"})
 #前処理２
 df1 = pd.read_csv("severe_cases_daily.csv")
-index1 = pd.date_range("2020-05-09", "2022-06-16", freq = "D")
+index1 = pd.date_range("2020-05-09", "2022-05-28", freq = "D")
 df1["Date"] = df1["Date"].str.replace('/', '-')
 df1.index = index1
 df1 = df1.drop(df1.columns[2:], axis=1)
