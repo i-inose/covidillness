@@ -21,3 +21,5 @@ $ covidill
 The red line indicates the number of seriously injured and the blue line indicates the number of fatalities.
 
 The graph shows that as the number of seriously injured people increases, the number of fatalities also increases at the same time.
+
+-At the Takefuji Lab-
