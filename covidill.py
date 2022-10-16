@@ -3,6 +3,18 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import datetime
+import sys,os
+import subprocess as sp
+
+if os.path.exists("deaths.csv"):
+	df = pd.read_csv("deaths.csv")
+else:
+	sp.call("wget https://github.com/i-inose/covidill/raw/main/deaths.csv",shell=True)
+
+if os.path.exists("domestic.csv"):
+	df = pd.read_csv("domestic.csv")
+else:
+	sp.call("wget https://github.com/i-inose/covidill/raw/main/domestic.csv",shell=True)
 
 #前処理1
 df = pd.read_csv("domestic.csv")
@@ -26,9 +38,8 @@ xmax = datetime.datetime.strptime(dmax, "%Y-%m-%d")
 plt.xlim([xmin,xmax])
 plt.ylim([0, 300])
 plt.grid(True)
-plt.plot(df, color="red", label="injured")
-plt.plot(df1, color="blue", label="deaths")
-# def main():
+plt.plot(df, color="blue", label="injured")
+plt.plot(df1, color="red", label="deaths")
 plt.legend()
 plt.savefig('result.png')
 plt.show()
