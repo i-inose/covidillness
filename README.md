@@ -20,6 +20,7 @@ Execute the following command in the directory where covidill.py exists.<br>
 $ covidill
 ```
 
+<img src="https://github.com/i-inose/covidill/blob/main/result.png?raw=true">
 The red line indicates the number of seriously injured and the blue line indicates the number of fatalities.<br>
 The graph shows that as the number of seriously injured people increases, the number of fatalities also increases at the same time.<br>
 
