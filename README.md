@@ -1,7 +1,7 @@
 ## Description
 This can be seen in the graph of the number of deaths and severe cases due to Covid-19.<br>
 Data on the number of severe cases persons：
-https://covid19.mhlw.go.jp/public/opendata/severe_cases_daily.csv"<br>
+https://covid19.mhlw.go.jp/public/opendata/severe_cases_daily.csv<br>
 Data on the number of deaths：
 https://covid19.mhlw.go.jp/public/opendata/number_of_deaths_daily.csv<br>
 
