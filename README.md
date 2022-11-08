@@ -1,7 +1,7 @@
 ## Description
 This can be seen in the graph of the number of ICU patients and deaths due to Covid-19.<br>
 The data can be found at the following URL：
-https://covid.ourworldindata.org/data/owid-covid-data.csv"<br>
+https://covid.ourworldindata.org/data/owid-covid-data.csv<br>
 
 ## How to install covidillness
 Write the following program in the terminal on your computer.
