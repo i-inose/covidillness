@@ -21,5 +21,5 @@ The lower graph shows the number of ICU patients.<br>
 In both Japan and France, the number of ICU patients fluctuates regardless of the number of Covid-19 deaths.<br>
 
 
-Written by Izuru Inose<br>
+Written by Izuru Inose / 伊野瀬出<br>
 -At the Takefuji Lab-
